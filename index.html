@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="formularioDevs">
+        <div class="principal">
+            <div class="cabecalho">
+                <h1>Cadastro de DEVs</h1>
+                <p>Completa suas informações</p>
+            </div>
+            <div class="informacoesPessoais">
+                <div class="inputNome">
+                    <div class="sobreDevs">
+                        <label for="Nome">Nome</label>
+                        <input type="text" name="Nome" id="Nome">
+                    </div>
+                    <div class="sobreDevs">
+                        <label for="sobrenomeDevs">Sobrenome</label>
+                        <input type="text" name="sobrenomeDevs" id="sobrenomeDevs">
+                    </div>
+                </div>
+                <div class="inputEmail">
+                    <div class="sobreDevs">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                </div>
+            </div>
+            <div class="informacoesAplicacao">
+                <div class="areaAplicacao">
+                    <p>De qual lado da aplicação você desenvolve?</p>
+                    <label>
+                        <input type="radio" name="devWeb" value="frontend" class="aplicacaoDevs" id="frontendDevs" checked>Front-end
+                    </label>
+                    <label>
+                        <input type="radio" name="devWeb" value="backend" class="aplicacaoDevs" id="backendDevs">Back-end
+                    </label>
+                    <label>
+                        <input type="radio" name="devWeb" value="fullstack" class="aplicacaoDevs" id="fullstackDevs">Fullstack
+                    </label>
+                    <div class="areaAplicacaoSelecao">
+                        <span>Senioridade</span>
+                        <select name="senioridade" id="devSenioridade">
+                            <option value="Selecione">Selecione</option>
+                            <option value="Junior">Junior</option>
+                            <option value="Pleno">Pleno</option>
+                            <option value="Senior">Sênior</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="informacaoTecnologia">
+                <p>Selecione as tecnologias que utiliza:</p>
+                <div class="tecnologias">
+                    <input type="checkbox" name="tecnologia" value="HTML" id="html">
+                    <label for="html">HTML</label>
+                    <input type="checkbox" name="tecnologia" value="CSS" id="css">
+                    <label for="css">CSS</label>
+                    <input type="checkbox" name="tecnologia" value="JavaScript" id="JavaScript">
+                    <label for="JavaScript">JavaScript</label>
+                    <input type="checkbox" name="tecnologia" value="PHP" id="PHP">
+                    <label for="PHP">PHP</label>
+                    <input type="checkbox" name="tecnologia" value="C#" id="C">
+                    <label for="C#">C#</label>
+                    <input type="checkbox" name="tecnologia"  value="Python" id="Python">
+                    <label for="Python">Python</label>
+                    <input type="checkbox" name="tecnologia" value="Java" id="Java">
+                    <label for="Java">Java</label>
+                </div>
+                <div class="experiencias">
+                    <p>Conte um pouco mais de sua experiência:</p>
+                    <div class="infoExtra">
+                        <textarea name="experiência" id="experiencia"rows="6"></textarea>
+                        <button id="botaoConcluir">Concluido</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="apps.js"></script>
+</body>
+</html>

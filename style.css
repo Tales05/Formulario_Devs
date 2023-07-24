@@ -1,0 +1,164 @@
+*{  
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+div#formularioDevs{
+    margin: auto;
+}
+
+div.cabecalho  {
+    padding: 1rem;
+    text-align: center;
+    color: #00BBC9;
+    font-weight: bold;
+}
+
+div.informacoesPessoais {
+    display: flex;
+    flex-direction: column;
+    color: #00BBC9;
+    font-weight: bold;
+}
+
+div.informacoesPessoais input {
+    width: 200px;
+    height: 25px;
+    margin-bottom: 1rem;
+    margin-top: .3rem;
+    outline: none;
+    border: 2px solid #00747c98;
+    box-shadow: 1px 1px 1px #00747c62;
+    border-radius: 10px;
+    padding: 5px;
+    color: #00747C;
+    font-weight: bold;
+
+}
+
+div.inputNome {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+div.sobreDevs {
+    display: flex;
+    flex-direction: column;
+}
+
+div.areaAplicacao {
+    display: flex;
+    flex-direction: column;
+    color: #00BBC9;
+    font-weight: bold;
+
+}
+
+div.areaAplicacao input {
+    cursor: pointer;
+}
+
+
+div.areaAplicacao p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+div.areaAplicacao label {
+    padding: 5px;
+
+}
+
+div.areaAplicacaoSelecao  {
+    display: flex;
+    flex-direction: column;
+}
+
+div.areaAplicacaoSelecao  span {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+div.areaAplicacaoSelecao  select {
+    width: 110px;
+    height: 30px;
+    outline: none;
+    border: 2px solid #00747c98;
+    box-shadow: 1px 1px 1px #00747c62;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    color: #00747C;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+div.informacaoTecnologia {
+    color: #00BBC9;
+    font-weight: bold;
+}
+
+div.informacaoTecnologia  p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+
+
+}
+
+div.tecnologias  {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+
+}
+
+div.tecnologias label {
+    margin-right: 10px;
+}
+
+div.tecnologias input {
+    cursor: pointer;
+}
+
+div.experiencias textarea {
+    width: 26em;
+    margin: 1rem;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #00747c98;
+    box-shadow: 1px 1px 1px #00747c62;
+    color: #00747C;
+    font-weight: bold;
+    outline: none;
+}
+
+div.infoExtra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.infoExtra button{
+    width: 150px;
+    height: 35px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    color: whitesmoke;
+    font-weight: bold;
+    background-image: linear-gradient(to left, #00BBC9, #00747C);
+    cursor: pointer;
+}
+
+div.infoExtra button:hover {
+    background-image: linear-gradient(to left, #00747C, #00BBC9);
+}
