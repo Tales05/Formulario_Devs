@@ -34,15 +34,17 @@
             <div class="informacoesAplicacao">
                 <div class="areaAplicacao">
                     <p>De qual lado da aplicação você desenvolve?</p>
-                    <label>
-                        <input type="radio" name="devWeb" value="frontend" class="aplicacaoDevs" id="frontendDevs" checked>Front-end
-                    </label>
-                    <label>
-                        <input type="radio" name="devWeb" value="backend" class="aplicacaoDevs" id="backendDevs">Back-end
-                    </label>
-                    <label>
-                        <input type="radio" name="devWeb" value="fullstack" class="aplicacaoDevs" id="fullstackDevs">Fullstack
-                    </label>
+                    <div class="radioweb">
+                        <label>
+                            <input type="radio" name="devWeb" value="frontend" class="aplicacaoDevs" id="frontendDevs" checked>Front-end
+                        </label>
+                        <label>
+                            <input type="radio" name="devWeb" value="backend" class="aplicacaoDevs" id="backendDevs">Back-end
+                        </label>
+                        <label>
+                            <input type="radio" name="devWeb" value="fullstack" class="aplicacaoDevs" id="fullstackDevs">Fullstack
+                        </label>
+                    </div>
                     <div class="areaAplicacaoSelecao">
                         <span>Senioridade</span>
                         <select name="senioridade" id="devSenioridade">
@@ -57,20 +59,24 @@
             <div class="informacaoTecnologia">
                 <p>Selecione as tecnologias que utiliza:</p>
                 <div class="tecnologias">
-                    <input type="checkbox" name="tecnologia" value="HTML" id="html">
-                    <label for="html">HTML</label>
-                    <input type="checkbox" name="tecnologia" value="CSS" id="css">
-                    <label for="css">CSS</label>
-                    <input type="checkbox" name="tecnologia" value="JavaScript" id="JavaScript">
-                    <label for="JavaScript">JavaScript</label>
-                    <input type="checkbox" name="tecnologia" value="PHP" id="PHP">
-                    <label for="PHP">PHP</label>
-                    <input type="checkbox" name="tecnologia" value="C#" id="C">
-                    <label for="C#">C#</label>
-                    <input type="checkbox" name="tecnologia"  value="Python" id="Python">
-                    <label for="Python">Python</label>
-                    <input type="checkbox" name="tecnologia" value="Java" id="Java">
-                    <label for="Java">Java</label>
+                    <div class="divisao1">
+                        <input type="checkbox" name="tecnologia" value="HTML" id="html">
+                        <label for="html">HTML</label>
+                        <input type="checkbox" name="tecnologia" value="CSS" id="css">
+                        <label for="css">CSS</label>
+                        <input type="checkbox" name="tecnologia" value="JavaScript" id="JavaScript">
+                        <label for="JavaScript">JavaScript</label>
+                        <input type="checkbox" name="tecnologia" value="PHP" id="PHP">
+                        <label for="PHP">PHP</label>
+                    </div>
+                    <div class="divisao2">
+                        <input type="checkbox" name="tecnologia" value="C#" id="C">
+                        <label for="C#">C#</label>
+                        <input type="checkbox" name="tecnologia"  value="Python" id="Python">
+                        <label for="Python">Python</label>
+                        <input type="checkbox" name="tecnologia" value="Java" id="Java">
+                        <label for="Java">Java</label>
+                    </div>
                 </div>
                 <div class="experiencias">
                     <p>Conte um pouco mais de sua experiência:</p>

@@ -68,6 +68,10 @@ div.areaAplicacao input {
     cursor: pointer;
 }
 
+div.radioweb {
+    display: flex;
+    flex-direction: column;
+}
 
 div.areaAplicacao p {
     font-size: 1.1rem;
@@ -161,4 +165,34 @@ div.infoExtra button{
 
 div.infoExtra button:hover {
     background-image: linear-gradient(to left, #00747C, #00BBC9);
+}
+
+@media screen and (max-width: 500px) {
+
+    div.informacoesPessoais{
+        padding: 1rem;
+
+    }
+    div.informacoesPessoais input{
+        width: 350px;
+    }
+    div.inputNome {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.areaAplicacao {
+        padding: 1rem;
+        margin-top: -1rem;
+    }
+    div.radioweb {
+        display: flex;
+        flex-direction: row;
+    }
+    div.informacaoTecnologia {
+        padding: 1rem;
+    }
+    div.infoExtra textarea {
+        width: 20em;
+    }
 }
